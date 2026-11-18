@@ -1,6 +1,6 @@
 # SignOps for iOS
 
-Approve, passkeys and push open reporting in an iOS app (iOS 16 and later). Approve keys are made in the Secure Enclave and never leave the phone. Passkeys go through AuthenticationServices; the same passkeys your website makes with `@signops/web` work here, synced through iCloud Keychain.
+[SignOps](https://signops.dev) in an iOS app (iOS 16 and later): Approve, passkeys and push open reporting. Approve keys are made in the Secure Enclave and never leave the phone. Passkeys go through AuthenticationServices; the same passkeys your website makes with `@signops/web` work here, synced through iCloud Keychain.
 
 ```swift
 // Swift Package Manager: https://github.com/signOps-dev/signops-ios, from "0.4.0", product SignOps
